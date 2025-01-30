@@ -1,0 +1,32 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <EnablePackageVersionOverride>false</EnablePackageVersionOverride>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="coverlet.collector" Version="6.0.0" />
+    <PackageVersion Include="Itmo.Dev.Platform.Postgres" Version="1.1.82" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Application.Abstractions" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0-preview-23531-01" />
+    <PackageVersion Include="Moq" Version="4.20.70" />
+    <PackageVersion Include="Npgsql" Version="8.0.3" />
+    <PackageVersion Include="SourceKit.Analyzers.Collections" Version="1.0.24" />
+    <PackageVersion Include="SourceKit.Analyzers.Enumerable" Version="1.0.24" />
+    <PackageVersion Include="SourceKit.Analyzers.MemberAccessibility" Version="1.0.24" />
+    <PackageVersion Include="SourceKit.Analyzers.Nullable" Version="1.0.24" />
+    <PackageVersion Include="SourceKit.Analyzers.Properties" Version="1.0.24" />
+    <PackageVersion Include="Spectre.Console" Version="0.48.1-preview.0.20" />
+    <PackageVersion Include="Spectre.Presenttion.Console" Version="0.48.1-preview.0.20" />
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+    <PackageVersion Include="xunit" Version="2.6.6" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+  </ItemGroup>
+</Project>
